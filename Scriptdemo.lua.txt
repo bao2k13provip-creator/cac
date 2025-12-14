@@ -36,10 +36,14 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 ------- BUTTON
     
     AddButton(Tab1o, {
-     Name = "kiv dash",
+     Name = "mnhv7",
     Callback = function()
-loadstring(game: HttpGet ("https://raw.githubusercontent.com/MinhNhatHUB/MinhNhat-HUB-TSB-V7/refs/heads/main/TSB.txt")) ()
+loadstring(game: HttpGet ("https://raw.githubusercontent.com/MinhNhatHUB/MinhNhat-HUB-TSB-V7/refs/heads/main/TSB.txt"))()
+end
+})
 AddButton(Tab1o, {
-     Name = "kiv dash",
+     Name = "mnhv8",
     Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/minhnhatdepzai8-cloud/TONG-HOP-SCRIPT/refs/heads/main/TSB"))()    
+loadstring(game:HttpGet("https://raw.githubusercontent.com/minhnhatdepzai8-cloud/TONG-HOP-SCRIPT/refs/heads/main/TSB"))()  
+end
+})  
