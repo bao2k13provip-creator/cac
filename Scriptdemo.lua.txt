@@ -2,8 +2,8 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 
        local Window = MakeWindow({
          Hub = {
-         Title = "NHỰT Phát pro",
-         Animation = "PRo tspTo:nhuthub"
+         Title = "nhuthub V2",
+         Animation = "nhutphatpro 2.0.0"
          },
         Key = {
         KeySystem = false,
@@ -22,7 +22,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 
        MinimizeButton({
        Image = "http://www.roblox.com/asset/?id=83190276951914",
-       Size = {60, 60},
+       Size = {50,50},
        Color = Color3.fromRGB(10, 10, 10),
        Corner = true,
        Stroke = false,
@@ -30,20 +30,56 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
       })
       
 ------ Tab
-     local Tab1o = MakeTab({Name = "pro tsb"})
-
+     local Tab1o = MakeTab({Name = "tsb pro vip"})
      
 ------- BUTTON
     
     AddButton(Tab1o, {
-     Name = "mnhv7",
+     Name = "fov bá dùng pro",
     Callback = function()
-loadstring(game: HttpGet ("https://raw.githubusercontent.com/MinhNhatHUB/MinhNhat-HUB-TSB-V7/refs/heads/main/TSB.txt"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/catwljz/ftap/refs/heads/main/fov120.txt"))()
 end
 })
-AddButton(Tab1o, {
-     Name = "mnhv8",
+   AddButton(Tab1o, {
+     Name = "kyoto",
     Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/minhnhatdepzai8-cloud/TONG-HOP-SCRIPT/refs/heads/main/TSB"))()  
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Cyborg883/KyotoTechRework/refs/heads/main/Protected_9378660372508532.lua"))()  
 end
 })  
+   AddButton(Tab1o, {
+     Name = "chạy nhanh noclip",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AkatsukiHub1/Universal/refs/heads/main/README.md"))()  
+end
+})
+   AddButton(Tab1o, {
+     Name = "Aim bá",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MerebennieOfficial/Bestaimbot/refs/heads/main/Merebennie"))()
+end
+})
+   AddButton(Tab1o, {
+     Name = "kiba",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/yqantg-pixel/Find/refs/heads/main/Protected_1593573630798166.lua.txt"))()
+end
+})
+   AddButton(Tab1o, {
+     Name = "dash dí người",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Cyborg883/FakeDash/refs/heads/main/Protected_5833389828844912.lua"))()
+end
+})
+   AddButton(Tab1o, {
+     Name = "aim pro no lock",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MerebennieOfficial/ExoticJn/refs/heads/main/AIMLOCK"))()
+end
+})
+   AddButton(Tab1o, {
+     Name = "fix bão n sen up",
+    Callback = function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Fps-Booster-V3-Universal-Joshzz-56009"))()
+end
+})
+ 
